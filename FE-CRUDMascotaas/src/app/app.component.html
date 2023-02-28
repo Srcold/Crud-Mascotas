@@ -1,0 +1,16 @@
+<div class="container">
+  <mat-card>
+    <div class="toggle">
+      <mat-slide-toggle [(ngModel)]="isChecked" (change)="changed($event)">
+
+      <mat-icon>{{mode}}</mat-icon>
+      </mat-slide-toggle>
+    </div>
+
+
+  </mat-card>
+
+</div>
+
+<router-outlet></router-outlet>
+

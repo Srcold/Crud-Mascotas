@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+}
+
+.title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid #020805;
+}
+
+
+
+td, th {
+  width: 15%;
+  padding: 10px;
+
+}
+
+
+.mat-form-field {
+  width: 100%;
+  font-size: 14px;
+}
+
+.delete{
+cursor: pointer;
+color:#E15639;
+
+
+}
+
+.edit{
+  cursor: pointer;
+  color:#2E8B57;
+}
+
+.search{
+  cursor: pointer;
+  color:#020805;
+}
